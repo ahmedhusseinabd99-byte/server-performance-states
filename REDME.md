@@ -16,3 +16,17 @@ A lightweight Bash script that collects and summarizes Linux server performance 
 chmod +x server-stats.sh
 ./server-stats.sh
 
+
+##Technologies Used
+
+Bash
+
+Linux system commands: top, mpstat, free, df, who, uptime
+
+Notes
+
+Script works without root permissions.
+
+CPU calculation has fallback logic for different Linux distributions.
+
+Tested on Ubuntu, Debian, CentOS, Rocky Linux, and Arch

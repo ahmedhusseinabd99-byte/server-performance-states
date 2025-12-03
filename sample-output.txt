@@ -1,0 +1,65 @@
+========================================
+        SERVER PERFORMANCE STATS
+========================================
+
+--- OS Version ---
+NAME="Rocky Linux"
+VERSION="9.6 (Blue Onyx)"
+ID="rocky"
+ID_LIKE="rhel centos fedora"
+VERSION_ID="9.6"
+PLATFORM_ID="platform:el9"
+PRETTY_NAME="Rocky Linux 9.6 (Blue Onyx)"
+ANSI_COLOR="0;32"
+LOGO="fedora-logo-icon"
+CPE_NAME="cpe:/o:rocky:rocky:9::baseos"
+HOME_URL="https://rockylinux.org/"
+VENDOR_NAME="RESF"
+VENDOR_URL="https://resf.org/"
+BUG_REPORT_URL="https://bugs.rockylinux.org/"
+SUPPORT_END="2032-05-31"
+ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
+ROCKY_SUPPORT_PRODUCT_VERSION="9.6"
+REDHAT_SUPPORT_PRODUCT="Rocky Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="9.6"
+
+--- Uptime ---
+up 5 hours, 24 minutes
+
+--- Load Average ---
+ 11.07, 11.02, 10.39
+
+--- Logged in Users ---
+ahmed    seat0        2025-11-30 12:40 (login screen)
+ahmed    tty2         2025-11-30 12:40 (tty2)
+
+--- Total CPU Usage ---
+100.0% used
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       2.8Gi       171Mi       7.0Mi       705Mi       596Mi
+Swap:          3.0Gi       1.4Gi       1.6Gi
+
+--- Disk Usage ---
+Filesystem           Size  Used Avail Use% Mounted on
+total                2.8T  2.5T  347G  88% -
+
+--- Top 5 Processes by CPU Usage ---
+    PID    PPID CMD                         %CPU
+ 163676       1 /usr/bin/python3 -Es /usr/s 28.5
+ 162312       1 /usr/bin/python3 -Es /usr/s 21.1
+   1578       1 /usr/bin/dockerd -H fd:// - 11.3
+   5652       1 /var/lib/minikube/binaries/  7.3
+   5861       1 /usr/local/bin/cri-dockerd   4.7
+
+--- Top 5 Processes by Memory Usage ---
+    PID    PPID CMD                         %MEM
+   6429    6391 kube-apiserver --advertise-  7.9
+   5652       1 /var/lib/minikube/binaries/  3.3
+ 162312       1 /usr/bin/python3 -Es /usr/s  2.8
+   1578       1 /usr/bin/dockerd -H fd:// -  2.6
+   4136    3750 /usr/bin/gnome-shell         2.4
+========================================
+           END OF REPORT
+========================================
